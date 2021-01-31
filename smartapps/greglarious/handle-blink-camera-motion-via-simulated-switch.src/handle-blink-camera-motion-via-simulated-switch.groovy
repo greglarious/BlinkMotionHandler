@@ -51,5 +51,5 @@ def motionTrigger(evt) {
 def resetMotion() {
   triggerSwitch.off()
   targetSwitch.off()
-  targetSensor.active()
+  targetSensor.inactive()
 }
